@@ -1,3 +1,10 @@
+
+```
+docker run --rm -v $(pwd):/media youtube-dl -x --audio-format mp3 https://www.youtube.com/watch\?v\=zunUPiRJQAY 
+```
+
+----
+
 [![Build Status](https://travis-ci.org/kijart/docker-youtube-dl.svg?branch=develop)](https://travis-ci.org/kijart/docker-youtube-dl) [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/kijart/youtube-dl.svg)](https://hub.docker.com/r/kijart/youtube-dl)
 
 # youtube-dl
